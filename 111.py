@@ -48,7 +48,7 @@ with tab1:
 
     st.subheader("Answers for Question 1")
 
-    EDA1 = Image.open('C:/Users/29729/Desktop/www/EDA1.png')
+    EDA1 = Image.open(EDA1.png')
     st.image(EDA1,
              use_column_width=True
              )
@@ -79,7 +79,7 @@ with tab1:
                Cost: 4145
                Political: 356''')
     st.write("Plot a bar chart to show the overall concerns:")
-    EDA2 = Image.open('C:/Users/29729/Desktop/www/overall_concerns.png')
+    EDA2 = Image.open('overall_concerns.png')
     st.image(EDA2,
              use_column_width=True
              )
@@ -123,13 +123,13 @@ Legality: 22745
 Cost: 2690
 Political: 220''')
 
-    EDA3 = Image.open('C:/Users/29729/Desktop/www/Most Prominent.png')
+    EDA3 = Image.open('Most Prominent.png')
     st.image(EDA3,
              use_column_width=True
              )
 
     st.write("Filter the data based on specific conditions as shown in the following table:")
-    df = pd.read_csv('C:/Users/29729/Desktop/www/concerns_by_period.csv')
+    df = pd.read_csv('concerns_by_period.csv')
     st.dataframe(df, width=1000)
 
     st.write("Finally, estimate the relative change for each concern over different time periods as follows:")
@@ -149,7 +149,7 @@ Legality: 62.16%
 Support/Advice: 62.59%
 Political: 30.95%''')
 
-    EDA4 = Image.open('C:/Users/29729/Desktop/www/EDA4.png')
+    EDA4 = Image.open('EDA4.png')
     st.image(EDA4,
              use_column_width=True
              )
@@ -186,7 +186,7 @@ Political: 30.95%''')
 
     st.subheader("Answers for Question 3")
 
-    EDA5 = Image.open('C:/Users/29729/Desktop/www/daily_average_scores.png')
+    EDA5 = Image.open('daily_average_scores.png')
     st.image(EDA5,
              use_column_width=True
              )
@@ -218,7 +218,7 @@ Political: 30.95%''')
     st.subheader("Answers for Question 4")
     st.write("As shown in the pie chart below, by filtering and summarizing variables in the dataset, the percentage "
              "distribution corresponding to each variable is visualized.")
-    EDA6 = Image.open('C:/Users/29729/Desktop/www/top_10_political_terms.png')
+    EDA6 = Image.open('top_10_political_terms.png')
     st.image(EDA6,
              use_column_width=True
              )
@@ -232,13 +232,13 @@ Political: 30.95%''')
              "reproductive rights on Reddit. It demonstrates how external events can influence and shape online discourse.")
     st.write("4.The persistence of certain terms over time, even after the a fair amount of weeks post ruling, indicates "
              "continued concern and discussion about the implications of the Court's decision on reproductive rights.")
-    EDA7 = Image.open('C:/Users/29729/Desktop/www/smoothed_weekly_10_pol_terms.png')
+    EDA7 = Image.open('smoothed_weekly_10_pol_terms.png')
     st.image(EDA7,
              use_column_width=True
              )
 
     st.subheader("Answers for Question 5")
-    EDA8 = Image.open('C:/Users/29729/Desktop/www/pol_subs_vol_change.png')
+    EDA8 = Image.open('pol_subs_vol_change.png')
     st.image(EDA8,
              use_column_width=True
              )
@@ -248,7 +248,7 @@ Political: 30.95%''')
              "The downward trends of the lines after each event suggest the heightened activity was largely transient, "
              "with interest fading as the novelty wore off.")
     st.subheader("Examine the change in Engagement Metrics (Q5)")
-    EDA9 = Image.open('C:/Users/29729/Desktop/www/daily_average_scores_politics.png')
+    EDA9 = Image.open('daily_average_scores_politics.png')
     st.image(EDA9,
              use_column_width=True
              )
@@ -342,12 +342,12 @@ with tab2:
     st.subheader("TF-IDF")
     st.write("The top 20 terms (based on their TF-IDF scores) among the submissions, and the comments, "
              "are presented in the respective tables below:")
-    image1 = Image.open('C:/Users/29729/Desktop/www/score1.png')
+    image1 = Image.open('score1.png')
     st.image(image1,
              caption='Table 1: Top 20 Terms in the Submissions (by TF-IDF Score)',
              use_column_width=True
              )
-    image2 = Image.open('C:/Users/29729/Desktop/www/score2.png')
+    image2 = Image.open('score2.png')
     st.image(image2,
              caption='Table 2: Top 20 Terms in the Comments (by TF-DF Score)',
              use_column_width=True
@@ -360,12 +360,12 @@ with tab2:
              "Notable common words include ‘pill’, ‘period’, ‘iud’, ‘time’, "
              "which are all crucial to the discourse of reproductive rights.")
 
-    image3 = Image.open('C:/Users/29729/Desktop/www/score3.png')
+    image3 = Image.open('score3.png')
     st.image(image3,
              caption='Table 3: 10 Most Common Terms in Submissions',
              use_column_width=True
              )
-    image4 = Image.open('C:/Users/29729/Desktop/www/score4.png')
+    image4 = Image.open('score4.png')
     st.image(image4,
              caption='Table 4: 10 Most Common Terms in Comments',
              use_column_width=True
@@ -381,11 +381,11 @@ with tab2:
              "potentially signalling a reduction in general well-being of the users.")
 
 
-    image5 = Image.open('C:/Users/29729/Desktop/www/word_frequency_plot.png')
+    image5 = Image.open('word_frequency_plot.png')
     st.image(image5,
              use_column_width=True
              )
-    image6 = Image.open('C:/Users/29729/Desktop/www/bigram_frequency_plot.png')
+    image6 = Image.open('bigram_frequency_plot.png')
     st.image(image6,
              use_column_width=True
              )
@@ -396,7 +396,7 @@ with tab2:
              "Based on the component words, we qualitatively interpret these topics using reviewed literature and domain knowledge. "
              "Interestingly, abortion accessibility and clinic location and state-related help was found to be a distinct topic, "
              "which is consistent with our initial concern with increased restrictions over reprodutive rights.")
-    image7 = Image.open('C:/Users/29729/Desktop/www/score7.png')
+    image7 = Image.open('score7.png')
     st.image(image7,
              caption='Table 5:Topics, Components, and Interpretations',
              use_column_width=True
@@ -408,7 +408,7 @@ with tab2:
              "These concerns are Timeline, Accessibility, Legality, Support/Advice, Cost, and Political. "
              "From the table below, we see that political posts, "
              "though accounting for a very small portion of the discourse, have the largest proportion of negativity.")
-    image8 = Image.open('C:/Users/29729/Desktop/www/score8.png')
+    image8 = Image.open('score8.png')
     st.image(image8,
              caption='Table 6: Sentiment Components by each Concern in the Subreddits',
              use_column_width=True
@@ -419,7 +419,7 @@ with tab2:
              "COnsistent with what we have previously found, the overall sentiment experienced notable drops after the two main events of the "
              "corpus leak in May 2022, and the official Overturn in June 2022.")
 
-    image9 = Image.open('C:/Users/29729/Desktop/www/sentiment_vader_overall.png')
+    image9 = Image.open('sentiment_vader_overall.png')
     st.image(image9,
              use_column_width=True
              )
@@ -428,7 +428,7 @@ with tab2:
              "Meanwhile, posts about Cost, or Support/Advice, experienced negligible drops. "
              "Thus, we may deduce that the sour in sentiment of the subreddits can be mainly attributed to the political segment of the discourse.")
 
-    image10 = Image.open('C:/Users/29729/Desktop/www/sentiment_vader_concerns.png')
+    image10 = Image.open('sentiment_vader_concerns.png')
     st.image(image10,
              use_column_width=True
              )

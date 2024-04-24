@@ -48,7 +48,7 @@ with tab1:
 
     st.subheader("Answers for Question 1")
 
-    EDA1 = Image.open(EDA1.png')
+    EDA1 = Image.open('EDA1.png')
     st.image(EDA1,
              use_column_width=True
              )
